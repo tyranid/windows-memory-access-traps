@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "CloudFilterTrap": {
+      "commandName": "Project",
+      "commandLineArgs": "c:\\root"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net9.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DiskAccessLibrary" Version="1.6.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\third_party\SMBLibrary\SMBLibrary.Adapters\SMBLibrary.Adapters.csproj" />
+    <ProjectReference Include="..\third_party\SMBLibrary\SMBLibrary\SMBLibrary.csproj" />
+    <ProjectReference Include="..\third_party\SMBLibrary\Utilities\Utilities.csproj" />
+  </ItemGroup>
+
+</Project>
